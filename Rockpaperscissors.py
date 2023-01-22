@@ -2,9 +2,11 @@
 # a basic rock paper scissor game
 # Created by Keisuke Fukui
 
-import random
+#importing module
+import random 
 
-def damage():
+#Game Starts Here
+def damage(): 
     num_of_rounds = int(
         input("Welcome to a game of rock paper scissors. Enter the number of rounds you would like to play: "))
     if num_of_rounds == 0:
@@ -55,5 +57,5 @@ def damage():
                     print("bye")
                     break
 
-
+# Calling the function
 damage()
