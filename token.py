@@ -23,3 +23,4 @@ yesterday_timestamp = int((datetime.now() - timedelta(1)).timestamp())
 
 results = client.get_reviews(
     '0x89c258faf553cfad:0x8e9cfc7444d8f876', sort='newest', cutoff=yesterday_timestamp, reviewsLimit=100, language='en')
+
