@@ -5,8 +5,6 @@ from google_maps_reviews import ReviewsClient
 client = ReviewsClient(api_key='SECRET_API_KEY')
 
 
-# Get reviews from the place by name and lcoation
-results = client.get_reviews('Trump Tower, NY, USA', reviewsLimit=10, language='en')
 
 # Get reviews from many places found by search query
 results = client.get_reviews('Memphis Seoul brooklyn usa', reviewsLimit=10, limit=10, language='en')
