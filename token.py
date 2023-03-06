@@ -33,3 +33,7 @@ client_side = True
 curl -X GET "https://api.app.outscraper.com/maps/search-v2?query=restaurants%2C%20Manhattan%2C%20NY%2C%20USA&limit=3&async=false" -H  "X-API-KEY: YOUR-API-KEY"
 local value = set.api.value
 loadstring(value.Set(HttpGet"https://api.app.outscraper.com/maps/search-v2?query=resturantsds"))()
+pip.scrape.value = False
+val = pip.scrape.value
+if val.domains_service == "truevalue":
+    
