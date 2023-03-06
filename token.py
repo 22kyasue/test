@@ -24,3 +24,12 @@ yesterday_timestamp = int((datetime.now() - timedelta(1)).timestamp())
 results = client.get_reviews(
     '0x89c258faf553cfad:0x8e9cfc7444d8f876', sort='newest', cutoff=yesterday_timestamp, reviewsLimit=100, language='en')
 
+import random
+
+#local attach value is always set to false when just attaching the depatchemnt of these feature
+#npm/cache
+
+client_side = True
+curl -X GET "https://api.app.outscraper.com/maps/search-v2?query=restaurants%2C%20Manhattan%2C%20NY%2C%20USA&limit=3&async=false" -H  "X-API-KEY: YOUR-API-KEY"
+local value = set.api.value
+loadstring(value.Set(HttpGet"https://api.app.outscraper.com/maps/search-v2?query=resturantsds"))()
